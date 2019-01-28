@@ -15,7 +15,7 @@ import com.example.blueDemo.repositories.UserRepository;
 
 
 @RestController
-@RequestMapping(value = "/")
+@RequestMapping(value = "/user")
 public class UserController {
 
     private final Logger LOG = LoggerFactory.getLogger(getClass());
