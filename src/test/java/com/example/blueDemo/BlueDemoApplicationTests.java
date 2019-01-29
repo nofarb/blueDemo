@@ -27,12 +27,12 @@ public class BlueDemoApplicationTests {
 	public void contextLoads() {
 	}
 
-	@Test
+/*	@Test
 	public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
 
 		this.mockMvc.perform(get("")).andDo(print()).andExpect(status().isOk());
 				//.andExpect(jsonPath("$.content").value("Hello, World!"));
-	}
+	}*/
 
 
 }
