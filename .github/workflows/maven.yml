@@ -29,4 +29,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-
+  
+  deployment:
+    runs-on: ubuntu-latest
+    environment: QA
+    steps:
+      - name: deploy
+        run: echo 'deploy to QA'
